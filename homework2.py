@@ -1,5 +1,5 @@
 numbers_of_users = input("Введіть 4-х значне число")
-number=int(numbers_of_users)
+number = int(numbers_of_users)
 
 digit1 = number // 1000
 digit2 = (number % 1000) // 100
