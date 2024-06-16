@@ -16,7 +16,7 @@ if len(empty_list) >= 2:
 
 print(empty_list)
 
-list_of_values2 = [3, 11, 7, 4, 21]
+list_of_values2 = [3, 11, 7, 4, 27]
 if len(list_of_values2) >= 2:
     list_of_values2[::] = list_of_values2[-1:] + list_of_values2[:-1]
 
