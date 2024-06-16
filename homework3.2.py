@@ -1,23 +1,27 @@
-list_of_values = [18, 7, 31, 4]
-if len(list_of_values) >= 2:
-    list_of_values[::] = list_of_values[-1:] + list_of_values[:-1]
+list1 = [3, 14, 6, 31]
+list2 = [4]
+list3 = []
 
-print(list_of_values)
+if len(list1) >= 2:
+    last_element1 = list1[-1:]
+    remaining_list1 = list1[:-1]
+    reversed_list1 = last_element1 + remaining_list1
+    print(f"{list1} => {reversed_list1}")
+else:
+    print(f"{list1} => {list1}")
 
-one_value_list = [5]
-if len(one_value_list) >= 2:
-    one_value_list[::] = one_value_list[-1:] + one_value_list[:-1]
+if len(list2) >= 2:
+    last_element2 = list2[-1:]
+    remaining_list2 = list2[:-1]
+    reversed_list2 = last_element2 + remaining_list2
+    print(f"{list2} => {reversed_list2}")
+else:
+    print(f"{list2} => {list2}")
 
-print(one_value_list)
-
-empty_list = []
-if len(empty_list) >= 2:
-    empty_list[::] = empty_list[-1:] + empty_list[:-1]
-
-print(empty_list)
-
-list_of_values2 = [3, 11, 7, 4, 27]
-if len(list_of_values2) >= 2:
-    list_of_values2[::] = list_of_values2[-1:] + list_of_values2[:-1]
-
-print(list_of_values2)
+if len(list3) >= 2:
+    last_element3 = list3[-1:]
+    remaining_list3 = list3[:-1]
+    reversed_list3 = last_element3 + remaining_list3
+    print(f"{list3} => {reversed_list3}")
+else:
+    print(f"{list3} => {list3}")
