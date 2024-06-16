@@ -14,4 +14,3 @@ else:
     result = "Неправильна операція"
 
 print(f"{value1} {mathematical_operation} {value2} = {result}")
-
