@@ -1,11 +1,23 @@
-list_vales1 = [15, 7, 5, 11, 9]
-list_vales1[::] = list_vales1[-1:] + list_vales1[:-1]
-print(list_vales1)
+list_of_values = [18, 7, 31, 4]
+if len(list_of_values) >= 2:
+    list_of_values[::] = list_of_values[-1:] + list_of_values[:-1]
 
-list_vales2 = [6]
-list_vales2[::] = list_vales2[-1:] + list_vales2[:-1]
-print(list_vales2)
+print(list_of_values)
 
-list_vales3 = []
-list_vales3[::] = list_vales3[-1:] + list_vales3[:-1]
-print(list_vales3)
+one_value_list = [5]
+if len(one_value_list) >= 2:
+    one_value_list[::] = one_value_list[-1:] + one_value_list[:-1]
+
+print(one_value_list)
+
+empty_list = []
+if len(empty_list) >= 2:
+    empty_list[::] = empty_list[-1:] + empty_list[:-1]
+
+print(empty_list)
+
+list_of_values2 = [3, 11, 7, 4, 21]
+if len(list_of_values2) >= 2:
+    list_of_values2[::] = list_of_values2[-1:] + list_of_values2[:-1]
+
+print(list_of_values2)
