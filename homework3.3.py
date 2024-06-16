@@ -1,4 +1,4 @@
-list_of_values = [7, 1, 3, 9, 5]
+list_of_values = [9, 4, 1, 3, 7]
 
 if not list_of_values:
     result = [[], []]
