@@ -14,3 +14,10 @@ else:
     result = [first_half, second_half]
 
 print(f"{list_of_values} => {result}")
+
+# my_list = [1, 2, 3, 9, 4, 5, 6]
+#
+# separator = len(my_list) - len(my_list) // 2
+# new_list = [my_list[:separator], my_list[separator:]]
+#
+# print(new_list)
