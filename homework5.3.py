@@ -13,3 +13,14 @@ if len(hashtag) > 140:
     hashtag = hashtag[:140]
 
 print(f"Хештег: {hashtag}")
+
+# user_text = input('Enter text: ').title()
+#
+# new_hashtag = '#'
+#
+# for symbol in user_text:
+#     if symbol.isalnum():
+#         new_hashtag += symbol
+#
+#
+# print(new_hashtag[:140])
