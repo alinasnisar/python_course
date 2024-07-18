@@ -17,6 +17,14 @@ else:
     minutes_str = str(minutes).zfill(2)
     seconds_str = str(seconds).zfill(2)
 
-    time_str = f"{days_str} днів, {hours_str}:{minutes_str}:{seconds_str}"
+    last_digit = days % 10
+    if last_digit == 1 and last_digit != 11:
+        word_day = "день"
+    elif 2 <= last_digit <= 4:
+        word_day = "дні"
+    else:
+        word_day = "днів"
+
+    time_str = f"{days_str} {word_day}, {hours_str}:{minutes_str}:{seconds_str}"
 
     print(f"Введений час: {time_str}")
